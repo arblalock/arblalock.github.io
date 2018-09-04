@@ -1,2 +1,1 @@
-# arblalock.github.io
-My Portfolio Page
+# My Portfolio Page
