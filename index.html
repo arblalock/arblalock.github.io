@@ -1,18 +1,210 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Adam Blalock - Portfolio</title>
-    <meta name="author" content="Adam Blalock">
-    <meta name="description" content="Adam Blalock's portfolio page. I am a web developer and programmer specializing in both front-end and backend development">
-    <meta name="keywords" content="portfolio, web design, game development, Adam Blalock, ">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Lato|M+PLUS+1p|Open+Sans|Work+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  </head>
-  <body>
-    <h1>Testing</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Blalock - Portfolio</title>
+  <meta name="author" content="Adam Blalock">
+  <meta name="description" content="Adam Blalock's portfolio page. I am a web developer and programmer specializing in both front-end and backend development">
+  <meta name="keywords" content="portfolio, web design, game development, Adam Blalock, ">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Lato|M+PLUS+1p|Open+Sans|Didact+Gothic|Khula|Nanum+Gothic|News+Cycle|Nunito+Sans|Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div id="o-cont">
+    <!-- Start of Header -->
+    <section id="top-header">
+      <h1>Adam Blalock</h1>
+      <h3>Programming | Full-Stack Web Developer</h3>
+      <div id="soc-cont">
+        <div id="soc-links">
+          <a target="_blank" href="https://www.linkedin.com/in/adam-blalock-abb757146/"><i class="soc-link fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/arblalock"><i class="soc-link fab fa-github"></i></a>
+          <a data-toggle="popover" data-content="
+          <div id='pop-cont'>
+            <div id='email-copy' class='popover-div' data-toggle='tooltip' data-placement='top' title=''>
+              <i class='fas pop-img fa-clipboard'></i>
+              <div>Copy email address</div>
+            </div>
+            <div>
+              <div class='popover-div'>
+                <i class='pop-img fas fa-envelope-square'></i>
+                <div id='email_to_link'>Open in your default email program</div>
+              </div>
+            </div>
+          </div>" href="#">
+          <i class="soc-link fa fa-envelope"></i>
+        </a>
+          <div id="resume-cont">
+            <a id="resume-link" target="_blank" href="./static/AdamBlalock_Resume.pdf">
+            <i id="pdf-img" class="soc-link fas fa-file-pdf"></i>
+          </a>
+            <div id="pdf-txt">Resume</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Header -->
+    <!-- Start of ClassQuestion -->
+    <section class="site-cont site-cont-straight">
+      <div class="site-img-cont site-info">
+        <img class="head-img" src="./static/classquestion1.png" />
+        <div class="img-sub-cont">
+          <div class="img-sub-row"><img class="sub-img" src="./static/classquestion2.png" /></div>
+          <div class="img-sub-row"><img class="sub-img" src="./static/classquestion3.png" /></div>
+        </div>
+      </div>
+      <div id="CQ-expl-cont" class="site-expl-cont site-info">
+        <div class="site-expl-txt">
+          <div class="info-head"><b><a class="noDec-link" href="https://classquestion.com/" target="_blank">ClassQuestion.com</a></b></div>
+          <div class="info-descr" style="text-align: left">Used by thousands of teachers and students, ClassQuestion allows teachers to send questions to students and instantly plot the results. Features include: Sever Sent Events for real-time polling, a gradebook with customizable exporting, and student
+            performance feedback.
+          </div>
+          <div class="info-head"><b>Front-End</b></div>
+          <div class="info-descr">HTML/CSS/Javascript</div>
+          <div class="info-descr">jQuery</div>
+          <div class="info-descr">Bootstrap</div>
+          <div class="info-head"><b>Back-End</b></div>
+          <div class="info-descr">Python/Flask</div>
+          <div class="info-descr">MySQL</div>
+          <div class="info-descr">Redis</div>
+          <div class="info-descr">gevent</div>
+          <div class="site-link">
+            <a class="noDec-link btn link-btn" href="https://classquestion.com/" target="_blank">
+              <div class="site-link-out">Visit Site
+                <i style="padding-left:5px" class="fas fa-external-link-alt"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of ClassQuestion -->
+    <!-- Start of FadeDomain -->
+    <section class="site-cont site-cont-reversed black-background">
+      <div id="FD-expl-cont" class="site-expl-cont site-info">
+        <div class="site-expl-txt">
+          <div class="info-head"><b><a class="noDec-link" href="https://arblalock.github.io/Faded-Domain/" target="_blank">Faded Domain</a></b></div>
+          <div class="info-descr" style="text-align: left">Faded Domain is a Roguelike first
+            person action game built with Unity. Gameplay centers around exploration and construction of defenses
+            to survive as many days as possible. AI difficulty scales as time goes on and as the day turns to night.
+          </div>
+          <div class="info-head"><b>Features</b></div>
+          <div class="info-descr">
+            <ul class="info-ul">
+              <li>Physics-based building destruction</li>
+              <li>Dynamic AI response to Day-Night cycles</li>
+              <li>Run-based/Roguelike gameplay</li>
+            </ul>
+          </div>
+          <div class="info-head"><b>Built Using</b></div>
+          <div class="info-descr">Unity 3D</div>
+          <div class="info-descr">C#</div>
+          <div class="info-descr">Blender</div>
+          <div class="info-descr">Photoshop</div>
+          <div class="site-link">
+            <a class="noDec-link btn link-btn" href="https://arblalock.github.io/Faded-Domain/" target="_blank">
+              <div class="site-link-out">Visit Site
+                <i style="padding-left:5px" class="fas fa-external-link-alt"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="site-img-cont site-info">
+        <img class="head-img lg-head-img" alt="Faded Domain Logo" src="./static/fadedomain1.png" />
+        <div class="img-sub-cont lg-img-sub-cont">
+          <div class="img-sub-row lg-img-sub-row"><img alt="Faded Domain building" class="sub-img" src="./static/fadedomain2.png" /></div>
+          <div class="img-sub-row lg-img-sub-row"><img alt="Faded Domain gameplay" class="sub-img" src="./static/fadedomain3.png" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- End of FadeDomain -->
+    <!-- Start React -->
+    <section id="react-cont" class="site-cont">
+      <div id="react-header">
+        <h2>React/Redux Projects</h2>
+        <hr />
+      </div>
+      <div class="react-site-cont">
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="React calculator" src="./static/ReactReduxCalc.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/React-Calculator');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://codepen.io/acor07/full/PBpNLV/');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="react-site-cont">
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="React markdown previewer" src="./static/ReactReduxMD.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/React-Markdown-Previewer');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://codepen.io/acor07/full/VBKWxe/');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="react-site-cont">
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="React pomodoro clock" src="./static/ReactReduxClock.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/React-Pomodoro-Clock');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://codepen.io/acor07/full/JByPvo/');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="react-site-cont">
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="React drum machine" src="./static/ReactReduxDrum.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/React-Drum-Machine');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://codepen.io/acor07/full/vagxgX/');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End React -->
+  </div>
+</body>
+
 </html>
