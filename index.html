@@ -28,7 +28,7 @@
         <div id="soc-links">
           <a target="_blank" href="https://www.linkedin.com/in/adam-blalock-abb757146/"><i class="soc-link fab fa-linkedin"></i></a>
           <a target="_blank" href="https://github.com/arblalock"><i class="soc-link fab fa-github"></i></a>
-          <a data-toggle="popover" data-content="
+          <a data-toggle="popover" data-placement='bottom' data-content="
           <div id='pop-cont'>
             <div id='email-copy' class='popover-div' data-toggle='tooltip' data-placement='top' title=''>
               <i class='fas pop-img fa-clipboard'></i>
@@ -54,7 +54,7 @@
     </section>
     <!-- End of Header -->
     <!-- Start of ClassQuestion -->
-    <section class="site-cont site-cont-straight">
+    <section class="site-cont site-cont-straight" >
       <div class="site-img-cont site-info">
         <img class="head-img" src="./static/classquestion1.png" />
         <div class="img-sub-cont">
@@ -92,7 +92,7 @@
     <section class="site-cont site-cont-reversed black-background">
       <div id="FD-expl-cont" class="site-expl-cont site-info">
         <div class="site-expl-txt">
-          <div class="info-head"><b><a class="noDec-link" href="https://arblalock.github.io/Faded-Domain/" target="_blank">Faded Domain</a></b></div>
+          <div id="FC-info-head" class="info-head"><b><a class="noDec-link" href="https://arblalock.github.io/Faded-Domain/" target="_blank">Faded Domain</a></b></div>
           <div class="info-descr" style="text-align: left">Faded Domain is a Roguelike first
             person action game built with Unity. Gameplay centers around exploration and construction of defenses
             to survive as many days as possible. AI difficulty scales as time goes on and as the day turns to night.
@@ -130,14 +130,14 @@
     <!-- End of FadeDomain -->
     <!-- Start React -->
     <section id="react-cont" class="site-cont">
-      <div id="react-header">
+      <div id="react-header" class="s-link-header">
         <h2>React/Redux Projects</h2>
         <hr />
       </div>
       <div class="react-site-cont">
         <div class="react-img-cont btn-img">
           <div class="img-wrap">
-            <img class="react-img" alt="React calculator" src="./static/ReactReduxCalc.png" />
+            <img class="react-img" alt="React calculator"  src="./static/ReactReduxCalc.png" />
             <div class="link-hover-cont">
               <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/React-Calculator');">
                 <i class="fab fa-github"></i>
@@ -204,6 +204,58 @@
       </div>
     </section>
     <!--End React -->
+    <!-- Start Node -->
+    <section id="node-cont" class="site-cont">
+      <div id="node-header" class="s-link-header">
+        <h2>Node/Express Projects</h2>
+        <hr>
+      </div>
+      <div class="react-site-cont">
+        <div class="site-cont-subtxt">Anonymous Message Board</div>
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="Node anonymous messageboard" src="./static/NodeExpressAnon.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/FCC-Anonymous-Message-Board');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://arblalock-fcc-anonymous-message-board.glitch.me/b/general');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="react-site-cont">
+        <h4 class="site-cont-subtxt">Issue Tracker</h4>
+        <div class="react-img-cont btn-img">
+          <div class="img-wrap">
+            <img class="react-img" alt="Node issue tracker" src="./static/NodeExpressIssue.png" />
+            <div class="link-hover-cont">
+              <div class="link-hover-item" onClick="window.open('https://github.com/arblalock/https://github.com/arblalock/FCC-Issue-Tracker');">
+                <i class="fab fa-github"></i>
+                <div class="link-hover-txt">GitHub Source</div>
+              </div>
+              <div class="link-hover-item" onClick="window.open('https://arblalock-fcc-issue-tracker.glitch.me/CompanyXYZ/');">
+                <i class="fas fa-external-link-square-alt"></i>
+                <div class="link-hover-txt">View Demo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Node -->
+    <footer>
+      <div class="bottom-btn-cont">
+        <a href="#o-cont" class="btn btn-lg btn-block btn-primary">
+          <span class="my-text">Back to top</span>
+          <span class="fas fa-arrow-up"></span>
+        </a>
+      </div>
+    </footer>
   </div>
 </body>
 
