@@ -55,8 +55,10 @@ $(document).ready(function() {
     return "unknown";
   }
 
+  //do mobile checks, change overlay
   if(getMobileOperatingSystem() != "unknown"){
     hideOverlays();
+    $('#email-btn').hide(); 
     $('.btn-img').on('click', function() {
       $(this).find('.link-hover-cont').css('display', 'flex');
       $(this).find('img').css({'opacity': '0.2'});
