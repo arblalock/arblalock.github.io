@@ -73,7 +73,7 @@ h3{
   align-items: center;
   box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.2);
   align-items: center;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .s-link-header{
@@ -99,18 +99,8 @@ h3{
 
 }
 
-.btn-img:hover .img-wrap {
-    background-color: black;
-}
 
-.btn-img:hover img {
-    opacity: 0.2;
-    cursor: pointer;
-}
-.btn-img img {
-    opacity: 1;
-    transition: opacity 0.6s;
-}
+
 
 .img-wrap{
   position: relative;
@@ -135,11 +125,7 @@ h3{
   transition: opacity 0.65s;
 }
 
-.btn-img:hover .link-hover-cont{
-  cursor: pointer;
-  /* display: flex; */
-  opacity: 1;
-}
+
 
 .link-hover-item{
   margin: 80px;
@@ -446,6 +432,24 @@ footer{
   padding-left: 15px;
 }
 
+.btn-img img {
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+.btn-img:hover .img-wrap {
+    background-color: black;
+}
+
+.btn-img:hover img {
+    opacity: 0.2;
+    cursor: pointer;
+}
+.btn-img:hover .link-hover-cont{
+  cursor: pointer;
+  opacity: 1;
+}
+
+
 @media (max-width: 1400px) {
 
   .link-hover-item{
@@ -497,7 +501,6 @@ footer{
 }
 
 @media (max-width: 1110px){
-
   .react-site-cont{
     width: 98%;
   }
@@ -600,7 +603,12 @@ footer{
 
 }
 
+
+
 @media (max-width: 420px) {
+  .head-img{
+    width: 95%;
+  }
 
   h1{
     font-size: 50px;
